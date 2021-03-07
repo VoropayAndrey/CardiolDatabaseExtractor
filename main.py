@@ -109,7 +109,7 @@ if __name__ == '__main__':
                   ", Channel count", number_of_channels,
                   ", Sample count", sample_count)
 
-            if (currentMode == Mode.EXTRACT_MODE):
+            if (currentMode == Mode.EXTRACT):
 
                 # Create an output filename
                 output_filename = output_folder + "/" + record_date + "-" + str(sample_count) + ".csv"
